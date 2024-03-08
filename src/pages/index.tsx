@@ -18,7 +18,7 @@ export default function Home() {
   const changeTo = router.locale === 'en' ? 'fr' : 'en';
 
   return (
-      <p>
+      <p lang={changeTo}>
         {t('available_in', { lng: changeTo })}{' '}
         <Link href="/" locale={changeTo}>
           {t(changeTo === 'en' ? 'english' : 'french', { ns: 'language', lng: changeTo })}

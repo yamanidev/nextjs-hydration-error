@@ -1,0 +1,12 @@
+{
+  "english": "Anglais",
+  "french": "Français",
+  "articles": {
+    "a": "un",
+    "an": "un"
+  },
+  "conjunctions": {
+    "or": "ou",
+    "and": "et"
+  }
+}

@@ -21,7 +21,7 @@ export default function Home() {
       <p>
         {t('available_in', { lng: changeTo })}{' '}
         <Link href="/" locale={changeTo}>
-          {t(changeTo === 'en' ? 'english' : 'french', { ns: 'language' })}
+          {t(changeTo === 'en' ? 'english' : 'french', { ns: 'language', lng: changeTo })}
         </Link>
       </p>
     );
